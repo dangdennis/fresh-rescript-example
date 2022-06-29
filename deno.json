@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts"
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "re:build": "npx rescript",
+    "re:start": "npx rescript build -w"
   },
   "importMap": "./import_map.json"
 }

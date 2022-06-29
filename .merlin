@@ -1,0 +1,12 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/dennisdang/Desktop/fresh-rescript/node_modules/rescript/darwin/bsc.exe -as-ppx '
+S /Users/dennisdang/Desktop/fresh-rescript/node_modules/rescript/lib/ocaml
+B /Users/dennisdang/Desktop/fresh-rescript/node_modules/rescript/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S ./node_modules/rescript/lib/4.06.1
+B lib/bs/./node_modules/rescript/lib/4.06.1
+S ./node_modules/rescript/lib/ocaml
+B lib/bs/./node_modules/rescript/lib/ocaml
+S ./node_modules/rescript/scripts
+B lib/bs/./node_modules/rescript/scripts
+####BSB GENERATED: NO EDIT}
