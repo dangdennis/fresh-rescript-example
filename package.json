@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dangdennis/fresh-rescript#readme",
   "devDependencies": {
     "rescript": "9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "0.10.3"
   }
 }

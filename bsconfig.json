@@ -5,6 +5,12 @@
         "dir": "src",
         "subdirs": true
     },
+    "reason": {
+        "react-jsx": 3
+    },
+    "bs-dependencies": [
+        "@rescript/react"
+    ],
     "package-specs": [
         {
             "module": "es6",
