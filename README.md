@@ -2,8 +2,17 @@
 
 ### Usage
 
-Start the project:
+Install Rescript from NPM
+```
+npm i
+```
 
+Build Rescript files
+```
+deno task re:build
+```
+
+Start the project:
 ```
 deno task start
 ```
