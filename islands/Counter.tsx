@@ -1,14 +1,19 @@
 /** @jsx h */
 import { h } from "preact";
-import { useState } from "preact/hooks";
+import { useState, useEffect } from "preact/hooks";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { tw } from "@twind";
+import { main } from "../lib/es6/src/main.js";
 
 interface CounterProps {
   start: number;
 }
 
 export default function Counter(props: CounterProps) {
+  useEffect(() => {
+    main()
+  }, []);
+
   const [count, setCount] = useState(props.start);
   const btn = tw`px-2 py-1 border(gray-100 1) hover:bg-gray-200`;
   return (
