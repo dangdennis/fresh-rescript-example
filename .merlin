@@ -5,6 +5,8 @@ B /Users/dennisdang/Desktop/dev/fresh-rescript/node_modules/rescript/lib/ocaml
 FLG -w +a-4-9-20-40-41-42-50-61-102
 S /Users/dennisdang/Desktop/dev/fresh-rescript/node_modules/@rescript/react/lib/ocaml
 B /Users/dennisdang/Desktop/dev/fresh-rescript/node_modules/@rescript/react/lib/ocaml
+S /Users/dennisdang/Desktop/dev/fresh-rescript/node_modules/rescript-webapi/lib/ocaml
+B /Users/dennisdang/Desktop/dev/fresh-rescript/node_modules/rescript-webapi/lib/ocaml
 S src
 B lib/bs/src
 ####BSB GENERATED: NO EDIT}

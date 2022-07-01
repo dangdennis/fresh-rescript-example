@@ -3,7 +3,7 @@ import { h } from "preact";
 import { useState, useEffect } from "preact/hooks";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { tw } from "@twind";
-import { main } from "../lib/es6/src/main.js";
+import { main } from "../src/main.js";
 
 interface CounterProps {
   start: number;
@@ -11,7 +11,7 @@ interface CounterProps {
 
 export default function Counter(props: CounterProps) {
   useEffect(() => {
-    main()
+    main();
   }, []);
 
   const [count, setCount] = useState(props.start);
